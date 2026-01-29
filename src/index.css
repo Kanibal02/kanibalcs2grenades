@@ -1,0 +1,77 @@
+:root {
+  /* CS2 Palette Inspiration */
+  --bg-primary: #121418;
+  --bg-secondary: #1b1e23;
+  --bg-tertiary: #23272e;
+  
+  --text-primary: #ffffff;
+  --text-secondary: #b0b3b8;
+  --text-muted: #6c757d;
+
+  --accent-color: #eebc5d; /* CS2 Gold/Yellow */
+  --accent-hover: #ffcf70;
+  --accent-dim: #94763a;
+
+  --border-color: #3a3f47;
+  --border-active: #eebc5d;
+
+  --card-bg: #1e2126;
+  --card-hover: #252930;
+
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  --nav-height: 64px;
+  --transition-speed: 0.2s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.5;
+  overflow: hidden; /* App-like feel */
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-color);
+}
+
+/* Utilities */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}

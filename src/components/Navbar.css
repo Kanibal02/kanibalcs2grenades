@@ -1,0 +1,58 @@
+.navbar {
+  height: var(--nav-height);
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  flex-shrink: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--accent-color);
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+
+.nav-divider {
+    width: 1px;
+    height: 20px;
+    background: var(--border-color);
+    margin: 0 1rem;
+}
+
+.navbar-maps {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 4px; /* Space for scrollbar if needed */
+}
+
+/* Hide scrollbar for cleaner look */
+.navbar-maps::-webkit-scrollbar {
+  height: 4px;
+}
+
+.nav-item {
+  background: transparent;
+  color: var(--text-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all var(--transition-speed);
+}
+
+.nav-item:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.nav-item.active {
+  background: var(--accent-color);
+  color: var(--bg-primary);
+  font-weight: 700;
+}

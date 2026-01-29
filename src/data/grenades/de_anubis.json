@@ -1,0 +1,146 @@
+[
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "CT Smoke",
+    "throwType": "left-click",
+    "landingPos": { "x": 29.5, "y": 44 },
+    "throwPos": { "x": 28.5, "y": 68 },
+    "content": {
+        "description": "CT Smoke",
+        "images": [
+            "/images/lineups/de_anubis/b_t_side/ct_smoke/stand.avif",
+            "/images/lineups/de_anubis/b_t_side/ct_smoke/aim.avif",
+            "/images/lineups/de_anubis/b_t_side/ct_smoke/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "Palace Smoke",
+    "throwType": "left-click",
+    "landingPos": { "x": 35.2, "y": 44 },
+    "throwPos": { "x": 28.5, "y": 68 },
+    "content": {
+        "description": "Palace Smoke",
+        "images": [
+            "/images/lineups/de_anubis/b_t_side/palace_smoke/stand.avif",
+            "/images/lineups/de_anubis/b_t_side/palace_smoke/aim.avif",
+            "/images/lineups/de_anubis/b_t_side/palace_smoke/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "Connector Smoke",
+    "throwType": "left-click",
+    "landingPos": { "x": 35, "y": 56 },
+    "throwPos": { "x": 28.5, "y": 68 },
+    "content": {
+        "description": "Connector Smoke",
+        "images": [
+            "/images/lineups/de_anubis/b_t_side/connector_smoke/stand.avif",
+            "/images/lineups/de_anubis/b_t_side/connector_smoke/aim.avif",
+            "/images/lineups/de_anubis/b_t_side/connector_smoke/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "Heaven Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 71, "y": 21 },
+    "throwPos": { "x": 76, "y": 51.8 },
+    "content": {
+        "description": "Heaven Smoke",
+        "images": [
+            "/images/lineups/de_anubis/a_t_side/heaven_smoke/stand.avif",
+            "/images/lineups/de_anubis/a_t_side/heaven_smoke/aim.avif",
+            "/images/lineups/de_anubis/a_t_side/heaven_smoke/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "Stairs Box Smoke",
+    "throwType": "left-click",
+    "landingPos": { "x": 72, "y": 35 },
+    "throwPos": { "x": 76, "y": 51.8 },
+    "content": {
+        "description": "Stairs Box Smoke",
+        "images": [
+            "/images/lineups/de_anubis/a_t_side/box_stairs_smoke/stand.avif",
+            "/images/lineups/de_anubis/a_t_side/box_stairs_smoke/aim.avif",
+            "/images/lineups/de_anubis/a_t_side/box_stairs_smoke/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "Box Smoke",
+    "throwType": "left-click",
+    "landingPos": { "x": 68, "y": 32 },
+    "throwPos": { "x": 76, "y": 51.8 },
+    "content": {
+        "description": "Box Smoke",
+        "images": [
+            "/images/lineups/de_anubis/a_t_side/box_smoke/stand.avif",
+            "/images/lineups/de_anubis/a_t_side/box_smoke/aim.avif",
+            "/images/lineups/de_anubis/a_t_side/box_smoke/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "Both",
+    "name": "Mid to A Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 82, "y": 33 },
+    "throwPos": { "x": 49, "y": 58.5 },
+    "content": {
+        "description": "Mid to A Smoke",
+        "images": [
+            "/images/lineups/de_anubis/mid/from_mid/stand.avif",
+            "/images/lineups/de_anubis/mid/from_mid/aim.avif",
+            "/images/lineups/de_anubis/mid/from_mid/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "CT",
+    "name": "CT to Mid Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 50.4, "y": 62 },
+    "throwPos": { "x": 44.5, "y": 19.5 },
+    "content": {
+        "description": "CT to Mid Smoke",
+        "images": [
+            "/images/lineups/de_anubis/mid/to_mid/ct/stand.avif",
+            "/images/lineups/de_anubis/mid/to_mid/ct/aim.avif",
+            "/images/lineups/de_anubis/mid/to_mid/ct/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "CT",
+    "name": "CT to B Door Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 23.5, "y": 55.5 },
+    "throwPos": { "x": 46, "y": 18.5 },
+    "content": {
+        "description": "CT to B Door Smoke",
+        "images": [
+            "/images/lineups/de_anubis/b_ct_side/door/stand.avif",
+            "/images/lineups/de_anubis/b_ct_side/door/aim.avif",
+            "/images/lineups/de_anubis/b_ct_side/door/land.avif"
+        ]
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "version": "v1.0.0",
+        "date": "2026-01-29",
+        "title": "Initial Release",
+        "description": "The start of CS2 Grenade Lineups",
+        "changes": [
+            "Added a total of 9 smokes on anubis",
+            "Added a bunch of knives in the commands section",
+            "Added a zoom bind",
+            "Added a practice config",
+            "Created the whole website"
+        ]
+    }
+]

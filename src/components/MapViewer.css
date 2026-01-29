@@ -1,0 +1,147 @@
+.map-container.static {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #0b0d10;
+}
+
+.map-inner {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* We assume map is square */
+    max-width: 90vh; 
+    max-height: 90vh;
+}
+
+.map-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+    opacity: 0.9;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.map-svg-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.map-marker {
+    position: absolute;
+    width: 2.5%; /* Size relative to map */
+    aspect-ratio: 1 / 1;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 10;
+    transition: width 0.2s ease, z-index 0.2s;
+}
+
+.map-marker:hover {
+    z-index: 20;
+    filter: brightness(1.2);
+}
+
+.map-marker.selected {
+    z-index: 25;
+}
+
+.map-marker img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+    transition: all 0.3s ease;
+}
+
+.map-marker.t-theme.group {
+    border-color: #de9b35;
+}
+.map-marker.t-theme .group-count {
+    color: #de9b35;
+}
+/* Orange-ish Yellow Filter for T-side icons */
+.map-marker.t-theme img:not(.cloud-icon) {
+    filter: sepia(1) saturate(5) hue-rotate(-10deg) brightness(1.1) drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}
+
+.map-marker.ct-theme.group {
+    border-color: #5d79ae;
+}
+.map-marker.ct-theme .group-count {
+    color: #5d79ae;
+}
+/* Blue-Cyanish Filter for CT-side icons */
+.map-marker.ct-theme img:not(.cloud-icon) {
+    filter: sepia(1) saturate(5) hue-rotate(180deg) brightness(1.1) drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}
+
+.map-marker.all-theme.group {
+    border-color: #fff;
+}
+.map-marker.all-theme .group-count {
+    color: #fff;
+}
+
+.selected-icon {
+    filter: drop-shadow(0 0 8px rgba(255,255,255,0.6)) !important;
+    z-index: 100;
+}
+
+/* Base marker styles updated */
+.selected-icon.cloud-icon {
+    transform: scale(3.5);
+}
+
+/* Coloring the cloud icon specifically when selected */
+.t-theme .selected-icon.cloud-icon {
+    filter: sepia(1) saturate(3) hue-rotate(-10deg) brightness(1.3) drop-shadow(0 0 15px rgba(222, 155, 53, 0.4)) !important;
+}
+
+.ct-theme .selected-icon.cloud-icon {
+    filter: sepia(1) saturate(3) hue-rotate(180deg) brightness(1.3) drop-shadow(0 0 15px rgba(93, 121, 174, 0.4)) !important;
+}
+
+.map-marker.group {
+    background: var(--bg-secondary);
+    border: 2px solid #fff; /* Default white */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-count {
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.map-controls {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 100;
+}
