@@ -50,6 +50,22 @@
   {
     "type": "smoke",
     "side": "T",
+    "name": "Mid Con Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 60, "y": 38.5 },
+    "throwPos": { "x": 28.5, "y": 68 },
+    "content": {
+        "description": "Mid Connector Smoke",
+        "images": [
+            "/images/lineups/de_anubis/b_t_side/mid_con_smoke/stand.avif",
+            "/images/lineups/de_anubis/b_t_side/mid_con_smoke/aim.avif",
+            "/images/lineups/de_anubis/b_t_side/mid_con_smoke/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
     "name": "Heaven Smoke",
     "throwType": "jump-throw",
     "landingPos": { "x": 71, "y": 21 },

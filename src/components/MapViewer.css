@@ -56,13 +56,25 @@
     transition: width 0.2s ease, z-index 0.2s;
 }
 
+/* Invisible Hitbox extension */
+.map-marker::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 150%;
+    /* background: red; opacity: 0.2; */ /* Debugging */
+}
+
 .map-marker:hover {
-    z-index: 20;
+    z-index: 30; /* Higher than selected to allow clicking overlapping ones */
     filter: brightness(1.2);
 }
 
 .map-marker.selected {
-    z-index: 25;
+    z-index: 20;
 }
 
 .map-marker img {
