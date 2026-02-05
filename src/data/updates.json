@@ -1,5 +1,14 @@
 [
-        {
+    {
+        "version": "v1.0.2",
+        "date": "2026-02-05",
+        "title": "Anubis Smoke",
+        "description": "Literally one smoke",
+        "changes": [
+        "Added one smoke on anubis (From A T Side, to Heaven))"
+        ]
+    },
+    {
         "version": "v1.0.1",
         "date": "2026-01-30",
         "title": "Small Adjustments",

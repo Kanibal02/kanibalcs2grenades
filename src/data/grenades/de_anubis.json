@@ -82,6 +82,23 @@
   {
     "type": "smoke",
     "side": "T",
+    "name": "Heaven Smoke 2",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 71, "y": 21 },
+    "throwPos": { "x": 80, "y": 57.5 },
+    "content": {
+        "description": "Heaven Smoke 2",
+        "images": [
+            "/images/lineups/de_anubis/a_t_side/heaven2_smoke/stand.avif",
+            "/images/lineups/de_anubis/a_t_side/heaven2_smoke/aim.avif",
+            "/images/lineups/de_anubis/a_t_side/heaven2_smoke/land.avif"
+        ]
+    }
+  },
+
+  {
+    "type": "smoke",
+    "side": "T",
     "name": "Stairs Box Smoke",
     "throwType": "left-click",
     "landingPos": { "x": 72, "y": 35 },
