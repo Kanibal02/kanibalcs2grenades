@@ -1,5 +1,21 @@
 [
     {
+        "version": "v1.1.0",
+        "date": "2026-02-05",
+        "title": "Moblie Support & Inferno",
+        "description": "Same day but a bit more things added :P",
+        "changes": [
+        "Added a total of 10 smokes on inferno",
+        "Added support for mobile",
+        "Adjusted the colors of the map smoke markers",
+        "Changed how the origin point looks like",
+        "Compressed the images a bit more (15-35% smaller on average) which means they should load faster making the website more responsive",
+        "Sorted the Knife commands based on their subclass Number",
+        "Adjusted the General Practice Config command",
+        "Fixed a few bugs"
+        ]
+    },
+    {
         "version": "v1.0.2",
         "date": "2026-02-05",
         "title": "Anubis Smoke",

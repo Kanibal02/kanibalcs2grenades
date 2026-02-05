@@ -1,0 +1,162 @@
+[
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "Mid Deep Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 69, "y": 67 },
+    "throwPos": { "x": 25, "y": 62 },
+    "content": {
+        "description": "Mid Deep Smoke",
+        "images": [
+            "/images/lineups/de_inferno/t_side/mid/stand.avif",
+            "/images/lineups/de_inferno/t_side/mid/aim.avif",
+            "/images/lineups/de_inferno/t_side/mid/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "A Short Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 76, "y": 76 },
+    "throwPos": { "x": 57.5, "y": 83 },
+    "content": {
+        "description": "Smokes Short and Van",
+        "images": [
+            "/images/lineups/de_inferno/t_side/a_short/stand.avif",
+            "/images/lineups/de_inferno/t_side/a_short/aim.avif",
+            "/images/lineups/de_inferno/t_side/a_short/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "A Pit Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 92.5, "y": 80 },
+    "throwPos": { "x": 46, "y": 81 },
+    "content": {
+        "description": "A Pit Smoke",
+        "images": [
+            "/images/lineups/de_inferno/t_side/a_pit/stand.avif",
+            "/images/lineups/de_inferno/t_side/a_pit/aim.avif",
+            "/images/lineups/de_inferno/t_side/a_pit/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "B Sniper Box Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 52.5, "y": 13.5 },
+    "throwPos": { "x": 51, "y": 41 },
+    "content": {
+        "description": "Smokes the annoying headshot spot",
+        "images": [
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/sniper/stand.avif",
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/sniper/aim.avif",
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/sniper/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "B Near Sniper Box Smoke",
+    "throwType": "left-click",
+    "landingPos": { "x": 48.5, "y": 16.5 },
+    "throwPos": { "x": 51, "y": 41 },
+    "content": {
+        "description": "B Near Sniper Box Smoke",
+        "images": [
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/site/stand.avif",
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/site/aim.avif",
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/site/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "T",
+    "name": "CT Smoke",
+    "throwType": "left-click",
+    "landingPos": { "x": 61, "y": 23.5 },
+    "throwPos": { "x": 51, "y": 41 },
+    "content": {
+        "description": "Basic smoke, but from a safe position",
+        "images": [
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/ct/stand.avif",
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/ct/aim.avif",
+            "/images/lineups/de_inferno/t_side/banana/entry_smokes/t_side/ct/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "CT",
+    "name": "A Balcony Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 81.5, "y": 81 },
+    "throwPos": { "x": 85.5, "y": 35 },
+    "content": {
+        "description": "Smokes off balcony and a bit of van",
+        "images": [
+            "/images/lineups/de_inferno/ct_side/ct_to_balcony/stand.avif",
+            "/images/lineups/de_inferno/ct_side/ct_to_balcony/aim.avif",
+            "/images/lineups/de_inferno/ct_side/ct_to_balcony/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "CT",
+    "name": "Mid Smoke",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 62.5, "y": 67 },
+    "throwPos": { "x": 92.5, "y": 30 },
+    "content": {
+        "description": "Mid Smoke",
+        "images": [
+            "/images/lineups/de_inferno/ct_side/ct_to_mid/stand.avif",
+            "/images/lineups/de_inferno/ct_side/ct_to_mid/aim.avif",
+            "/images/lineups/de_inferno/ct_side/ct_to_mid/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "CT",
+    "name": "Deeper Banana",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 47, "y": 43 },
+    "throwPos": { "x": 92.5, "y": 30 },
+    "content": {
+        "description": "Deeper Banana",
+        "images": [
+            "/images/lineups/de_inferno/ct_side/ct_to_banan/deeper/stand.avif",
+            "/images/lineups/de_inferno/ct_side/ct_to_banan/deeper/aim.avif",
+            "/images/lineups/de_inferno/ct_side/ct_to_banan/deeper/land.avif"
+        ]
+    }
+  },
+  {
+    "type": "smoke",
+    "side": "CT",
+    "name": "Banana",
+    "throwType": "jump-throw",
+    "landingPos": { "x": 50, "y": 39 },
+    "throwPos": { "x": 92.5, "y": 30 },
+    "content": {
+        "description": "Banana but near Car",
+        "images": [
+            "/images/lineups/de_inferno/ct_side/ct_to_banan/normal/stand.avif",
+            "/images/lineups/de_inferno/ct_side/ct_to_banan/normal/aim.avif",
+            "/images/lineups/de_inferno/ct_side/ct_to_banan/normal/land.avif"
+        ]
+    }
+  }
+]

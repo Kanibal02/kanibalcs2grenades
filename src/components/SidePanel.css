@@ -14,6 +14,13 @@
     box-shadow: -5px 0 20px rgba(0,0,0,0.5);
 }
 
+@media (max-width: 768px) {
+    .side-panel {
+        width: 100%;
+        right: -100%;
+    }
+}
+
 .side-panel.open {
     right: 0;
 }

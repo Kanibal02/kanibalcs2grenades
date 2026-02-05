@@ -1,10 +1,10 @@
 import anubis from './de_anubis.json';
+import inferno from './de_inferno.json';
 
 // Map of file -> mapId
 const dataSources = {
     'de_anubis': anubis,
-    // Add other maps here as you create files
-    // 'de_mirage': mirage,
+    'de_inferno': inferno
 };
 
 const processedGrenades = [];

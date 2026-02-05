@@ -129,13 +129,13 @@ const MapViewer = ({
                                     onMarkerClick(isMulti ? group : first);
                                 }}
                             >
-                                {isMulti && (!isSelected || viewMode === 'throwing') ? (
-                                    <div className="group-count">{group.length}</div>
+                                {/* Show Number/Circle if it's a group OR we are in throwing mode (even for singles) */}
+                                {(isMulti || viewMode === 'throwing') && (!isSelected || viewMode !== 'landing') ? (
+                                    <div className={`group-count ${!isMulti ? 'single-throw' : ''}`}>{isMulti ? group.length : ''}</div>
                                 ) : (
-                                    <img 
-                                        src={iconSrc} 
-                                        alt={first.type} 
-                                        className={`${isSelected ? 'selected-icon' : ''} ${isSelected && first.type === 'smoke' && viewMode === 'landing' ? 'cloud-icon' : ''}`} 
+                                    <div 
+                                        className={`marker-icon ${isSelected ? 'selected-icon' : ''} ${isSelected && first.type === 'smoke' && viewMode === 'landing' ? 'cloud-icon' : ''}`} 
+                                        style={{ '--mask-url': `url(${iconSrc})` }}
                                     />
                                 )}
                             </div>
